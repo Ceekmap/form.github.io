@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	line-height: 1;
+}
+body {
+	font-size: 12px;
+	-ms-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background: #fff;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+.ladi-wraper {
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.backdrop-popup {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 90000060;
+}
+.backdrop-dropbox {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 90000080;
+}
+.lightbox-screen {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	z-index: 2147483647;
+	background: rgba(0,0,0,.5);
+}
+.ladi-section {
+	margin: 0 auto;
+	position: relative;
+}
+/* @media all and (min-width:768px) */
+#SECTION161 {
+	height: 765px;
+}
+/* @media all and (min-width:768px) */
+#SECTION15 {
+	height: 474px;
+}
+/* @media all and (min-width:768px) */
+#SECTION20 {
+	height: 648px;
+}
+/* @media all and (min-width:768px) */
+#SECTION41 {
+	height: 617px;
+}
+/* @media all and (min-width:768px) */
+#SECTION62 {
+	height: 607px;
+}
+/* @media all and (min-width:768px) */
+#SECTION70 {
+	height: 631px;
+}
+/* @media all and (min-width:768px) */
+#SECTION108 {
+	height: 385px;
+}
+/* @media all and (min-width:768px) */
+#SECTION125 {
+	height: 592px;
+}
+/* @media all and (min-width:768px) */
+#SECTION146 {
+	height: 552px;
+}
+/* @media all and (min-width:768px) */
+#SECTION_POPUP {
+	height: 0px;
+}
+.ladi-section .ladi-section-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+	overflow: hidden;
+}
+.ladi-container {
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+}
+/* @media all and (min-width:768px) */
+.ladi-section .ladi-container {
+	width: 960px;
+}
+#SECTION_POPUP .ladi-container {
+	z-index: 90000070;
+}
+/* @media all and (min-width:768px) */
+#SECTION146 > .ladi-section-background {
+	background-image: url("https://w.ladicdn.com/s1440x552/57b167c9ca57d39c18a1c57c/patt.png");
+	background-position: left top;
+	background-repeat: repeat;
+}
+.ladi-element {
+	position: absolute;
+}
+/* @media all and (min-width:768px) */
+#LINE147 {
+	width: 615px;
+	top: 210px;
+	left: 345px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE148 {
+	width: 611px;
+	top: 256px;
+	left: 344px;
+}
+/* @media all and (min-width:768px) */
+#FORM150 {
+	width: 610px;
+	height: 169px;
+	top: 297px;
+	left: 343px;
+}
+/* @media all and (min-width:768px) */
+#GROUP155 {
+	width: 435px;
+	height: 97px;
+	top: 78px;
+	left: 345px;
+}
+/* @media all and (min-width:768px) */
+#GROUP158 {
+	width: 310px;
+	height: 54px;
+	top: 77px;
+	left: 0px;
+}
+.ladi-group {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE159 {
+	width: 310px;
+	top: 30px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE160 {
+	width: 276px;
+	top: 0px;
+	left: 0px;
+}
+.ladi-headline {
+	width: 100%;
+	display: inline-block;
+	background-size: cover;
+	background-position: center center;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE160 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(157, 143, 98);
+	font-size: 18px;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE159 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(157, 143, 98);
+	font-size: 24px;
+	text-align: left;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE156 {
+	width: 435px;
+	top: 38px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE157 {
+	width: 272px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE157 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE156 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.4;
+}
+.ladi-form {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/* @media all and (min-width:768px) */
+#FORM150 > .ladi-form {
+	color: rgb(97, 97, 97);
+	font-size: 13px;
+	line-height: 1;
+}
+.ladi-form > .ladi-element {
+	text-transform: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM151 {
+	width: 300px;
+	height: 33px;
+	top: 2px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM152 {
+	width: 300px;
+	height: 33px;
+	top: 47px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM153 {
+	width: 300px;
+	height: 33px;
+	top: 92px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM154 {
+	width: 300px;
+	height: 125px;
+	top: 0px;
+	left: 310px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON149 {
+	width: 128px;
+	height: 33px;
+	top: 136px;
+	left: 0px;
+}
+.ladi-hidden {
+	display: none;
+}
+.ladi-button {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.ladi-form .ladi-button {
+	cursor: pointer;
+}
+/* @media all and (min-width:768px) */
+#BUTTON149 > .ladi-button {
+	border-radius: 0px;
+}
+.ladi-button .ladi-button-background {
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+	transition: inherit;
+}
+/* @media all and (min-width:768px) */
+#BUTTON149 > .ladi-button > .ladi-button-background {
+	background-color: rgb(157, 143, 98);
+}
+.ladi-button > .ladi-element {
+	width: 100% !important;
+	height: 100% !important;
+	top: 0px !important;
+	left: 0px !important;
+	display: table;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.ladi-form .ladi-button > .ladi-element {
+	color: initial;
+	font-size: initial;
+	font-weight: initial;
+	text-transform: initial;
+	text-decoration: initial;
+	font-style: initial;
+	text-align: initial;
+	letter-spacing: initial;
+	line-height: initial;
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT149 {
+	width: 128px;
+	top: 6.7px;
+	left: 0px;
+}
+.ladi-button > .ladi-element .ladi-headline {
+	display: table-cell;
+	vertical-align: middle;
+}
+.ladi-form .ladi-button .ladi-headline {
+	cursor: pointer;
+	user-select: none;
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT149 > .ladi-headline {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.4;
+}
+.ladi-form .ladi-form-item-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.ladi-form > .ladi-element .ladi-form-item-container {
+	text-transform: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+}
+/* @media all and (min-width:768px) */
+#FORM150 .ladi-form-item-container, #FORM150 .ladi-form-label-container .ladi-form-label-item {
+	border-style: solid;
+	border-color: rgb(26, 35, 126);
+	border-width: 1px;
+}
+.ladi-form .ladi-form-item-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+}
+.ladi-form > .ladi-element .ladi-form-item-container .ladi-form-item-background {
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+}
+/* @media all and (min-width:768px) */
+#FORM150 .ladi-form-item-background {
+	background-color: rgb(255, 255, 255);
+}
+.ladi-form .ladi-form-item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.ladi-form > .ladi-element .ladi-form-item-container .ladi-form-item {
+	text-transform: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+}
+.ladi-form .ladi-form-item .ladi-form-control {
+	background-color: transparent;
+	min-width: 100%;
+	min-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	padding: 0 5px;
+	color: inherit;
+	font-size: inherit;
+	border: none;
+}
+.ladi-form .ladi-form-item textarea.ladi-form-control {
+	resize: none;
+	padding: 5px;
+}
+.ladi-form > .ladi-element .ladi-form-item-container .ladi-form-item :not(.ladi-form-control-select).ladi-form-control {
+	text-transform: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE148 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.2;
+}
+.ladi-line {
+	position: relative;
+}
+/* @media all and (min-width:768px) */
+#LINE147 > .ladi-line {
+	width: 100%;
+	padding: 8px 0px;
+}
+.ladi-line .ladi-line-container {
+	border-bottom: 0 !important;
+	border-right: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+/* @media all and (min-width:768px) */
+#LINE147 > .ladi-line > .ladi-line-container {
+	border-top: 1px solid rgb(157, 143, 98);
+	border-right: 1px solid rgb(157, 143, 98);
+	border-bottom: 1px solid rgb(157, 143, 98);
+	border-left: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#SECTION125 > .ladi-section-background {
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#GROUP189 {
+	width: 223px;
+	height: 319px;
+	top: 186px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#GROUP190 {
+	width: 223px;
+	height: 319px;
+	top: 186px;
+	left: 245px;
+}
+/* @media all and (min-width:768px) */
+#GROUP191 {
+	width: 223px;
+	height: 319px;
+	top: 186px;
+	left: 738px;
+}
+/* @media all and (min-width:768px) */
+#GROUP192 {
+	width: 223px;
+	height: 319px;
+	top: 186px;
+	left: 493px;
+}
+/* @media all and (min-width:768px) */
+#LINE144 {
+	width: 102px;
+	top: 129px;
+	left: 429px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE145 {
+	width: 403px;
+	top: 78px;
+	left: 271px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE145 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(69, 69, 69);
+	font-size: 36px;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#LINE144 > .ladi-line {
+	width: 100%;
+	padding: 8px 0px;
+}
+/* @media all and (min-width:768px) */
+#LINE144 > .ladi-line > .ladi-line-container {
+	border-top: 1px solid rgb(157, 143, 98);
+	border-right: 1px solid rgb(157, 143, 98);
+	border-bottom: 1px solid rgb(157, 143, 98);
+	border-left: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#BOX140 {
+	width: 223px;
+	height: 319px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE141 {
+	width: 223px;
+	height: 228px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE142 {
+	width: 158px;
+	top: 252px;
+	left: 32px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE143 {
+	width: 141px;
+	top: 274px;
+	left: 36px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE143 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(97, 97, 97);
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE142 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(33, 33, 33);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+.ladi-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+}
+.ladi-image .ladi-image-background {
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+	background-attachment: scroll;
+	background-origin: content-box;
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+/* @media all and (min-width:768px) */
+#IMAGE141 > .ladi-image > .ladi-image-background {
+	width: 228px;
+	height: 228px;
+	top: 0px;
+	left: -2.5px;
+	background-image: url("https://w.ladicdn.com/uploads/images/fe20a2a1-02ad-4510-a595-064da06f9f09.jpg");
+}
+.ladi-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/* @media all and (min-width:768px) */
+#BOX140 > .ladi-box {
+	box-shadow: 0px 1px 0px 0px rgba(199,199,199,1);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(199, 199, 199, 1);
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#BOX136 {
+	width: 223px;
+	height: 319px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE137 {
+	width: 223px;
+	height: 228px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE138 {
+	width: 158px;
+	top: 252px;
+	left: 32px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE139 {
+	width: 141px;
+	top: 274px;
+	left: 36px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE139 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(97, 97, 97);
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE138 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(33, 33, 33);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE137 > .ladi-image > .ladi-image-background {
+	width: 228px;
+	height: 228px;
+	top: 0px;
+	left: -2.5px;
+	background-image: url("https://w.ladicdn.com/uploads/images/3d6cfab4-b0fa-485c-929e-d83b055a1920.jpg");
+}
+/* @media all and (min-width:768px) */
+#BOX136 > .ladi-box {
+	box-shadow: 0px 1px 0px 0px rgba(199,199,199,1);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(199, 199, 199, 1);
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#BOX132 {
+	width: 223px;
+	height: 319px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE133 {
+	width: 223px;
+	height: 228px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE134 {
+	width: 158px;
+	top: 252px;
+	left: 32px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE135 {
+	width: 141px;
+	top: 274px;
+	left: 36px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE135 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(97, 97, 97);
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE134 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(33, 33, 33);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE133 > .ladi-image > .ladi-image-background {
+	width: 228px;
+	height: 228px;
+	top: 0px;
+	left: -2.5px;
+	background-image: url("https://w.ladicdn.com/uploads/images/a5fd59d0-34ba-49ea-a60e-388fb81e88d9.jpg");
+}
+/* @media all and (min-width:768px) */
+#BOX132 > .ladi-box {
+	box-shadow: 0px 1px 0px 0px rgba(199,199,199,1);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(199, 199, 199, 1);
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#BOX128 {
+	width: 223px;
+	height: 319px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE129 {
+	width: 223px;
+	height: 228px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE130 {
+	width: 158px;
+	top: 252px;
+	left: 32px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE131 {
+	width: 141px;
+	top: 274px;
+	left: 36px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE131 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(97, 97, 97);
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE130 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(33, 33, 33);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE129 > .ladi-image > .ladi-image-background {
+	width: 227.15px;
+	height: 228px;
+	top: 0px;
+	left: -2.07px;
+	background-image: url("https://w.ladicdn.com/uploads/images/fc482f7c-862a-4bac-b181-24c92190b8f0.png");
+}
+/* @media all and (min-width:768px) */
+#BOX128 > .ladi-box {
+	box-shadow: 0px 1px 0px 0px rgba(199,199,199,1);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(199, 199, 199, 1);
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#SECTION108 > .ladi-section-background {
+	background-size: cover;
+	background-attachment: scroll;
+	background-origin: content-box;
+	background-image: url("https://w.ladicdn.com/s1440x385/57b167c9ca57d39c18a1c57c/exp-bg.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+/* @media all and (min-width:768px) */
+#GROUP109 {
+	width: 166px;
+	height: 130px;
+	top: 124px;
+	left: 795px;
+}
+/* @media all and (min-width:768px) */
+#GROUP113 {
+	width: 166px;
+	height: 130px;
+	top: 124px;
+	left: 526px;
+}
+/* @media all and (min-width:768px) */
+#GROUP117 {
+	width: 166px;
+	height: 130px;
+	top: 124px;
+	left: 265px;
+}
+/* @media all and (min-width:768px) */
+#GROUP121 {
+	width: 166px;
+	height: 130px;
+	top: 124px;
+	left: -1px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE122 {
+	width: 55px;
+	height: 55px;
+	top: 0px;
+	left: 59.5px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE123 {
+	width: 156px;
+	top: 70px;
+	left: 9px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE124 {
+	width: 166px;
+	top: 114px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE124 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE123 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+.ladi-shape {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+/* @media all and (min-width:768px) */
+#SHAPE122 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE118 {
+	width: 55px;
+	height: 55px;
+	top: 0px;
+	left: 59.5px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE119 {
+	width: 156px;
+	top: 70px;
+	left: 9px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE120 {
+	width: 166px;
+	top: 114px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE120 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE119 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#SHAPE118 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE114 {
+	width: 55px;
+	height: 55px;
+	top: 0px;
+	left: 59.5px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE115 {
+	width: 156px;
+	top: 68px;
+	left: 10px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE116 {
+	width: 166px;
+	top: 114px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE116 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE115 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#SHAPE114 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE110 {
+	width: 55px;
+	height: 55px;
+	top: 0px;
+	left: 59.5px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE111 {
+	width: 156px;
+	top: 70px;
+	left: 9px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE112 {
+	width: 166px;
+	top: 114px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE112 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(157, 143, 98);
+	font-size: 13px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE111 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#SHAPE110 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SECTION70 > .ladi-section-background {
+	background-image: url("https://w.ladicdn.com/s1440x631/57b167c9ca57d39c18a1c57c/slider2-bg-1024x341.jpg");
+	background-position: left top;
+	background-repeat: repeat;
+}
+/* @media all and (min-width:768px) */
+#GROUP73 {
+	width: 302px;
+	height: 307px;
+	top: 230px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE97 {
+	width: 403px;
+	top: 116px;
+	left: 273px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE98 {
+	width: 45px;
+	height: 45px;
+	top: 67px;
+	left: 449px;
+}
+/* @media all and (min-width:768px) */
+#LINE99 {
+	width: 175px;
+	top: 171px;
+	left: 386px;
+}
+/* @media all and (min-width:768px) */
+#GROUP100 {
+	width: 302px;
+	height: 307px;
+	top: 230px;
+	left: 330px;
+}
+/* @media all and (min-width:768px) */
+#GROUP104 {
+	width: 302px;
+	height: 307px;
+	top: 230px;
+	left: 659px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE105 {
+	width: 297px;
+	top: 214px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH106 {
+	width: 302px;
+	top: 248px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE107 {
+	width: 302px;
+	height: 194px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE107 > .ladi-image > .ladi-image-background {
+	width: 302px;
+	height: 194px;
+	top: 0px;
+	left: 0px;
+	background-image: url("https://w.ladicdn.com/s650x500/57b167c9ca57d39c18a1c57c/slides_3.jpg");
+}
+.ladi-paragraph {
+	width: 100%;
+	display: inline-block;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH106 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(66, 66, 66);
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE105 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(46, 46, 45);
+	font-size: 21px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE101 {
+	width: 297px;
+	top: 214px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH102 {
+	width: 302px;
+	top: 248px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE103 {
+	width: 302px;
+	height: 194px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE103 > .ladi-image > .ladi-image-background {
+	width: 304.37px;
+	height: 194px;
+	top: 0px;
+	left: -1.18px;
+	background-image: url("https://w.ladicdn.com/s650x500/57b167c9ca57d39c18a1c57c/toa-heftiba-195458.jpg");
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH102 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(66, 66, 66);
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE101 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(46, 46, 45);
+	font-size: 21px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#LINE99 > .ladi-line {
+	width: 100%;
+	padding: 8px 0px;
+}
+/* @media all and (min-width:768px) */
+#LINE99 > .ladi-line > .ladi-line-container {
+	border-top: 1px solid rgb(157, 143, 98);
+	border-right: 1px solid rgb(157, 143, 98);
+	border-bottom: 1px solid rgb(157, 143, 98);
+	border-left: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#SHAPE98 svg:last-child {
+	fill: #9d8f62;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE97 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(69, 69, 69);
+	font-size: 36px;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE74 {
+	width: 297px;
+	top: 214px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH75 {
+	width: 302px;
+	top: 248px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE76 {
+	width: 302px;
+	height: 194px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE76 > .ladi-image > .ladi-image-background {
+	width: 546.07px;
+	height: 194px;
+	top: 0px;
+	left: -122.03px;
+	background-image: url("https://w.ladicdn.com/s850x500/57b167c9ca57d39c18a1c57c/slide-3.jpg");
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH75 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(66, 66, 66);
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE74 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(46, 46, 45);
+	font-size: 21px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SECTION62 > .ladi-section-background {
+	background-size: cover;
+	background-attachment: scroll;
+	background-origin: content-box;
+	background-image: url("https://w.ladicdn.com/s1440x607/57b167c9ca57d39c18a1c57c/22.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.ladi-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+/* @media all and (min-width:768px) */
+#SECTION62 > .ladi-overlay {
+	background-color: rgba(28, 28, 28, 0.79);
+}
+/* @media all and (min-width:768px) */
+#GROUP187 {
+	width: 300px;
+	height: 120px;
+	top: 161px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#GROUP188 {
+	width: 658px;
+	height: 120px;
+	top: 161px;
+	left: 298px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH67 {
+	width: 545px;
+	top: 337px;
+	left: 208px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON68 {
+	width: 377px;
+	height: 59px;
+	top: 447px;
+	left: 287px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON68 > .ladi-button {
+	border-radius: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON68 > .ladi-button > .ladi-button-background {
+	background-color: rgb(157, 143, 98);
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT68 {
+	width: 377px;
+	top: 19px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT68 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH67 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#BOX65 {
+	width: 658px;
+	height: 120px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE66 {
+	width: 597px;
+	top: 20px;
+	left: 35px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE66 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	text-align: left;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#BOX65 > .ladi-box {
+	border-style: solid;
+	border-color: rgb(157, 143, 98);
+}
+/* @media all and (min-width:768px) */
+#BOX63 {
+	width: 300px;
+	height: 120px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE64 {
+	width: 256px;
+	top: 31px;
+	left: 30px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE64 > .ladi-headline {
+	color: rgb(48, 48, 48);
+	font-size: 54px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#BOX63 > .ladi-box {
+	background-color: rgb(157, 143, 98);
+}
+/* @media all and (min-width:768px) */
+#SECTION41 > .ladi-section-background {
+	background-color: rgb(245, 245, 245);
+}
+/* @media all and (min-width:768px) */
+#SECTION41 > .ladi-overlay {
+	background-size: cover;
+	background-attachment: scroll;
+	background-origin: content-box;
+	background-image: url("https://w.ladicdn.com/s700x1300/57b167c9ca57d39c18a1c57c/ok.png");
+	background-position: left top;
+	background-repeat: repeat;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH43 {
+	width: 490px;
+	top: 144px;
+	left: 4px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE44 {
+	width: 495px;
+	top: 104px;
+	left: 1px;
+}
+/* @media all and (min-width:768px) */
+#GROUP45 {
+	width: 259px;
+	height: 146px;
+	top: 213px;
+	left: 2px;
+}
+/* @media all and (min-width:768px) */
+#GROUP49 {
+	width: 259px;
+	height: 146px;
+	top: 213px;
+	left: 296.5px;
+}
+/* @media all and (min-width:768px) */
+#GROUP53 {
+	width: 259px;
+	height: 146px;
+	top: 392px;
+	left: 296.5px;
+}
+/* @media all and (min-width:768px) */
+#GROUP57 {
+	width: 259px;
+	height: 146px;
+	top: 389px;
+	left: 2px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE61 {
+	width: 483.65px;
+	height: 406px;
+	top: 136px;
+	left: 582px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE61 > .ladi-image > .ladi-image-background {
+	width: 484.22px;
+	height: 406px;
+	top: 0px;
+	left: -0.28px;
+	background-image: url("https://w.ladicdn.com/uploads/images/2117d9ef-b78e-47f1-8174-c84037c88fad.png");
+}
+/* @media all and (min-width:768px) */
+#SHAPE58 {
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE59 {
+	width: 249px;
+	top: 64px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH60 {
+	width: 256px;
+	top: 91px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH60 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(117, 117, 117);
+	font-size: 13px;
+	text-align: left;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE59 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(66, 66, 66);
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SHAPE58 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE54 {
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE55 {
+	width: 244px;
+	top: 64px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH56 {
+	width: 256px;
+	top: 91px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH56 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(117, 117, 117);
+	font-size: 13px;
+	text-align: left;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE55 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(66, 66, 66);
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SHAPE54 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE50 {
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE51 {
+	width: 225px;
+	top: 64px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH52 {
+	width: 256px;
+	top: 91px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH52 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(117, 117, 117);
+	font-size: 13px;
+	text-align: left;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE51 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(66, 66, 66);
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SHAPE50 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#SHAPE46 {
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE47 {
+	width: 217px;
+	top: 64px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH48 {
+	width: 256px;
+	top: 91px;
+	left: 3px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH48 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(117, 117, 117);
+	font-size: 13px;
+	text-align: left;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE47 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(66, 66, 66);
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SHAPE46 svg:last-child {
+	fill: rgba(157, 143, 98, 1);
+}
+/* @media all and (min-width:768px) */
+#HEADLINE44 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(66, 66, 66);
+	font-size: 30px;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH43 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(117, 117, 117);
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#SECTION20 > .ladi-section-background {
+	background-color: rgb(255, 255, 255);
+}
+/* @media all and (min-width:768px) */
+#LINE30 {
+	width: 175px;
+	top: 160px;
+	left: 364px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE31 {
+	width: 45px;
+	height: 45px;
+	top: 56px;
+	left: 430px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE32 {
+	width: 403px;
+	top: 105px;
+	left: 251px;
+}
+/* @media all and (min-width:768px) */
+#GROUP34 {
+	width: 303px;
+	height: 359px;
+	top: 221px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#GROUP35 {
+	width: 303px;
+	height: 359px;
+	top: 221px;
+	left: 331px;
+}
+/* @media all and (min-width:768px) */
+#GROUP38 {
+	width: 303px;
+	height: 359px;
+	top: 221px;
+	left: 658px;
+}
+/* @media all and (min-width:768px) */
+#IMAGE39 {
+	width: 303px;
+	height: 318px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE40 {
+	width: 302px;
+	top: 330px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE40 > .ladi-headline {
+	font-family: "Lobster", cursive;
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE39 > .ladi-image > .ladi-image-background {
+	width: 387.13px;
+	height: 318px;
+	top: 0px;
+	left: -42.06px;
+	background-image: url("https://w.ladicdn.com/s700x650/57b167c9ca57d39c18a1c57c/slider-dulichphap-tangka-560x460.jpg");
+}
+/* @media all and (min-width:768px) */
+#IMAGE36 {
+	width: 303px;
+	height: 318px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE37 {
+	width: 302px;
+	top: 330px;
+	left: 1px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE37 > .ladi-headline {
+	font-family: "Lobster", cursive;
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE36 > .ladi-image > .ladi-image-background {
+	width: 555.33px;
+	height: 318px;
+	top: 0px;
+	left: -126.16px;
+	background-image: url("https://w.ladicdn.com/s900x650/57b167c9ca57d39c18a1c57c/estato-pool-bgn-4.jpg");
+}
+/* @media all and (min-width:768px) */
+#IMAGE21 {
+	width: 303px;
+	height: 318px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE33 {
+	width: 302px;
+	top: 330px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE33 > .ladi-headline {
+	font-family: "Lobster", cursive;
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#IMAGE21 > .ladi-image > .ladi-image-background {
+	width: 542.37px;
+	height: 318px;
+	top: 0px;
+	left: -119.68px;
+	background-image: url("https://w.ladicdn.com/s850x650/57b167c9ca57d39c18a1c57c/2-1-488767.jpg");
+}
+/* @media all and (min-width:768px) */
+#HEADLINE32 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(157, 143, 98);
+	font-size: 36px;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#SHAPE31 svg:last-child {
+	fill: #9d8f62;
+}
+/* @media all and (min-width:768px) */
+#LINE30 > .ladi-line {
+	width: 100%;
+	padding: 8px 0px;
+}
+/* @media all and (min-width:768px) */
+#LINE30 > .ladi-line > .ladi-line-container {
+	border-top: 1px solid rgb(157, 143, 98);
+	border-right: 1px solid rgb(157, 143, 98);
+	border-bottom: 1px solid rgb(157, 143, 98);
+	border-left: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#SECTION15 > .ladi-section-background {
+	background-image: url("https://w.ladicdn.com/s1440x474/57b167c9ca57d39c18a1c57c/patt.png");
+	background-position: center top;
+	background-repeat: repeat;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE16 {
+	width: 403px;
+	top: 117px;
+	left: 258px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE17 {
+	width: 45px;
+	height: 45px;
+	top: 68px;
+	left: 437px;
+}
+/* @media all and (min-width:768px) */
+#LINE18 {
+	width: 254px;
+	top: 179px;
+	left: 332px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH19 {
+	width: 772px;
+	top: 236px;
+	left: 68px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH19 > .ladi-paragraph {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(173, 173, 173);
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#LINE18 > .ladi-line {
+	width: 100%;
+	padding: 8px 0px;
+}
+/* @media all and (min-width:768px) */
+#LINE18 > .ladi-line > .ladi-line-container {
+	border-top: 1px solid rgb(157, 143, 98);
+	border-right: 1px solid rgb(157, 143, 98);
+	border-bottom: 1px solid rgb(157, 143, 98);
+	border-left: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#SHAPE17 svg:last-child {
+	fill: #9d8f62;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE16 > .ladi-headline {
+	font-family: "Roboto Slab", serif;
+	color: rgb(157, 143, 98);
+	font-size: 36px;
+	text-align: center;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#SECTION161 > .ladi-section-background {
+	background-size: cover;
+	background-attachment: scroll;
+	background-origin: content-box;
+	background-image: url("https://w.ladicdn.com/s1440x765/57b167c9ca57d39c18a1c57c/22.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+/* @media all and (min-width:768px) */
+#GROUP186 {
+	width: 385px;
+	height: 504px;
+	top: 133px;
+	left: 575px;
+}
+/* @media all and (min-width:768px) */
+#GROUP181 {
+	width: 389px;
+	height: 442px;
+	top: 127px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON182 {
+	width: 201px;
+	height: 45px;
+	top: 397px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE183 {
+	width: 362px;
+	top: 133px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH184 {
+	width: 389px;
+	top: 254px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE185 {
+	width: 57px;
+	height: 57px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#SHAPE185 svg:last-child {
+	fill: rgba(255, 255, 255, 1);
+}
+/* @media all and (min-width:768px) */
+#PARAGRAPH184 > .ladi-paragraph {
+	font-family: "Itim", cursive;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	text-align: left;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE183 > .ladi-headline {
+	font-family: "Itim", cursive;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	text-align: left;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#BUTTON182 > .ladi-button {
+	border-radius: 1px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON182 > .ladi-button > .ladi-button-background {
+	background-color: rgb(157, 143, 98);
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT182 {
+	width: 201px;
+	top: 12.7px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT182 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#BOX162 {
+	width: 385px;
+	height: 504px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE163 {
+	width: 341px;
+	top: 28px;
+	left: 18px;
+}
+/* @media all and (min-width:768px) */
+#GROUP164 {
+	width: 298px;
+	height: 98px;
+	top: 109px;
+	left: 41px;
+}
+/* @media all and (min-width:768px) */
+#GROUP175 {
+	width: 300px;
+	height: 230px;
+	top: 241px;
+	left: 42px;
+}
+/* @media all and (min-width:768px) */
+#FORM176 {
+	width: 300px;
+	height: 230px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM176 > .ladi-form {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	line-height: 1;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM177 {
+	width: 300px;
+	height: 46.14px;
+	top: 0px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM178 {
+	width: 300px;
+	height: 46.14px;
+	top: 58.92px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#FORM_ITEM179 {
+	width: 300px;
+	height: 46.14px;
+	top: 117.85px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON180 {
+	width: 300px;
+	height: 49px;
+	top: 181px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON180 > .ladi-button {
+	border-radius: 2px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON180 > .ladi-button > .ladi-button-background {
+	background-color: rgb(157, 143, 98);
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT180 {
+	width: 300px;
+	top: 14.7px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#BUTTON_TEXT180 > .ladi-headline {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+}
+/* @media all and (min-width:768px) */
+#FORM176 .ladi-form-item-container, #FORM176 .ladi-form-label-container .ladi-form-label-item {
+	border-style: solid;
+	border-color: rgb(194, 194, 194);
+	border-width: 1px;
+	border-radius: 5px;
+}
+/* @media all and (min-width:768px) */
+#FORM176 .ladi-form-item-background {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+/* @media all and (min-width:768px) */
+#GROUP165 {
+	width: 294.34px;
+	height: 98px;
+	top: 0px;
+	left: 1.81px;
+}
+/* @media all and (min-width:768px) */
+#COUNTDOWN174 {
+	width: 298px;
+	height: 43px;
+	top: 40px;
+	left: 0px;
+}
+.ladi-countdown {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/* @media all and (min-width:768px) */
+#COUNTDOWN174 > .ladi-countdown {
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.ladi-countdown > .ladi-element {
+	text-decoration: inherit;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+	position: relative;
+	display: inline-block;
+}
+.ladi-countdown > :last-child.ladi-element {
+	margin-right: 0px !important;
+}
+/* @media all and (min-width:768px) */
+#COUNTDOWN174 > .ladi-countdown > .ladi-element {
+	width: calc((100% - 10px * 3) /4);
+	margin-right: 10px;
+	height: 100%;
+}
+.ladi-countdown .ladi-countdown-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-size: inherit;
+	background-attachment: inherit;
+	background-origin: inherit;
+	display: table;
+	pointer-events: none;
+}
+.ladi-countdown .ladi-countdown-text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-decoration: inherit;
+	display: table;
+	pointer-events: none;
+}
+.ladi-countdown .ladi-countdown-text span {
+	display: table-cell;
+	vertical-align: middle;
+}
+/* @media all and (min-width:768px) */
+#BOX166 {
+	width: 68.45px;
+	height: 70px;
+	top: 28px;
+	left: 0px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE167 {
+	width: 61px;
+	top: 0px;
+	left: 5.25px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE168 {
+	width: 61px;
+	top: 0px;
+	left: 80.26px;
+}
+/* @media all and (min-width:768px) */
+#BOX169 {
+	width: 68.45px;
+	height: 70px;
+	top: 28px;
+	left: 75px;
+}
+/* @media all and (min-width:768px) */
+#BOX170 {
+	width: 68.45px;
+	height: 70px;
+	top: 28px;
+	left: 225.89px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE171 {
+	width: 61px;
+	top: 0px;
+	left: 227.17px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE172 {
+	width: 61px;
+	top: 0px;
+	left: 155.17px;
+}
+/* @media all and (min-width:768px) */
+#BOX173 {
+	width: 68.45px;
+	height: 70px;
+	top: 28px;
+	left: 149.87px;
+}
+/* @media all and (min-width:768px) */
+#BOX173 > .ladi-box {
+	background-color: rgb(20, 20, 20);
+	border-radius: 6px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE172 > .ladi-headline {
+	color: rgb(64, 64, 64);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE171 > .ladi-headline {
+	color: rgb(64, 64, 64);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#BOX170 > .ladi-box {
+	background-color: rgb(20, 20, 20);
+	border-radius: 6px;
+}
+/* @media all and (min-width:768px) */
+#BOX169 > .ladi-box {
+	background-color: rgb(20, 20, 20);
+	border-radius: 6px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE168 > .ladi-headline {
+	color: rgb(64, 64, 64);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE167 > .ladi-headline {
+	color: rgb(64, 64, 64);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#BOX166 > .ladi-box {
+	background-color: rgb(20, 20, 20);
+	border-radius: 6px;
+}
+/* @media all and (min-width:768px) */
+#HEADLINE163 > .ladi-headline {
+	color: rgb(38, 38, 38);
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2;
+}
+/* @media all and (min-width:768px) */
+#BOX162 > .ladi-box {
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+</style>
+</head>
+<body><div class="ladi-wraper"><div class="ladi-section" id="SECTION161"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="GROUP186"><div class="ladi-group"><div class="ladi-element" id="BOX162"><div class="ladi-box"></div></div><div class="ladi-element" id="HEADLINE163"><h4 class="ladi-headline">Nhanh tay lên!<br>B?n mu?n nh?n Uu dãi t?t</h4></div><div class="ladi-element" id="GROUP164"><div class="ladi-group"><div class="ladi-element" id="GROUP165"><div class="ladi-group"><div class="ladi-element" id="BOX166"><div class="ladi-box"></div></div><div class="ladi-element" id="HEADLINE167"><h2 class="ladi-headline">NGÀY</h2></div><div class="ladi-element" id="HEADLINE168"><h2 class="ladi-headline">GI?</h2></div><div class="ladi-element" id="BOX169"><div class="ladi-box"></div></div><div class="ladi-element" id="BOX170"><div class="ladi-box"></div></div><div class="ladi-element" id="HEADLINE171"><h2 class="ladi-headline">GIÂY</h2></div><div class="ladi-element" id="HEADLINE172"><h2 class="ladi-headline">PHÚT</h2></div><div class="ladi-element" id="BOX173"><div class="ladi-box"></div></div></div></div><div class="ladi-element" id="COUNTDOWN174" data-type="countdown" data-minute="5555" data-date-start="0" data-date-end="1651647326610"><div class="ladi-countdown"><div class="ladi-element" id="COUNTDOWN_ITEM23" data-item-type="day"><div class="ladi-countdown-background"></div><div class="ladi-countdown-text"><span>03</span></div></div><div class="ladi-element" id="COUNTDOWN_ITEM24" data-item-type="hour"><div class="ladi-countdown-background"></div><div class="ladi-countdown-text"><span>20</span></div></div><div class="ladi-element" id="COUNTDOWN_ITEM25" data-item-type="minute"><div class="ladi-countdown-background"></div><div class="ladi-countdown-text"><span>25</span></div></div><div class="ladi-element" id="COUNTDOWN_ITEM26" data-item-type="seconds"><div class="ladi-countdown-background"></div><div class="ladi-countdown-text"><span>18</span></div></div></div></div></div></div><div class="ladi-element" id="GROUP175"><div class="ladi-group"><div class="ladi-element" id="FORM176" data-config-id=""><form class="ladi-form" method="post" autocomplete="off"><div class="ladi-element" id="FORM_ITEM177"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="name" tabindex="1" class="ladi-form-control" required="" type="text" placeholder="H? và tên" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="FORM_ITEM178"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="email" tabindex="1" class="ladi-form-control" required="" type="email" placeholder="Nh?p Email" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="FORM_ITEM179"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="phone" tabindex="1" class="ladi-form-control" required="" type="tel" placeholder="Nh?p S? di?n tho?i" pattern="[0-9]{9,12}" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="BUTTON180"><div class="ladi-button"><div class="ladi-button-background"></div><div class="ladi-element" id="BUTTON_TEXT180"><p class="ladi-headline">G?I LIÊN H? T?I CHÚNG TÔI</p></div></div></div><button class="ladi-hidden" type="submit"></button></form></div></div></div></div></div><div class="ladi-element" id="GROUP181"><div class="ladi-group"><div class="ladi-element" id="BUTTON182"><div class="ladi-button"><div class="ladi-button-background"></div><div class="ladi-element" id="BUTTON_TEXT182"><p class="ladi-headline">Ð?T HÀNG TRU?C!</p></div></div></div><div class="ladi-element" id="HEADLINE183"><h1 class="ladi-headline">Tour Du l?ch vòng quanh Châu Âu!</h1></div><div class="ladi-element" id="PARAGRAPH184"><p class="ladi-paragraph">Understanding your customers can be very important, that's why we'll bring the brightest minds together for the first time ever!</p></div><div class="ladi-element" id="SHAPE185"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; pointer-events: none;" fill="rgba(255, 255, 255, 1)" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" fit="" version="1.0"><path d="M 29.23 13.342 L 17.633 1.747 C 17.198 1.31 16.618 1.07 16 1.07 s -1.196 0.24 -1.632 0.677 L 11.84 4.275 H 8.005 V 8.11 l -5.332 5.33 v 17.49 H 29.33 V 13.443 l -0.1 -0.1 Z m -1.105 0.405 l -4.13 4.13 V 9.618 l 4.13 4.128 Z M 15.12 2.5 c 0.47 -0.47 1.29 -0.47 1.76 0 l 1.774 1.774 h -5.307 L 15.12 2.5 Z m 4.6 2.84 l 3.21 3.212 v 10.39 l -2.47 2.47 l -2.828 -2.83 c -0.436 -0.436 -1.016 -0.677 -1.633 -0.677 s -1.198 0.24 -1.634 0.677 l -2.87 2.87 l -2.427 -2.426 V 5.34 h 10.648 Z m -15.34 7.9 l 3.624 -3.624 v 8.343 l -4.172 -4.173 l 0.548 -0.548 Z m -0.642 2.818 v -0.856 l 7.003 7.003 l -0.078 0.08 l -6.924 6.922 v -13.15 Z m 0.85 13.806 l 0.574 -0.573 h 0.002 l 9.957 -9.955 c 0.47 -0.47 1.29 -0.47 1.76 0 l 10.53 10.53 H 4.59 Z M 28.263 15.36 v 13.848 l -7.046 -7.043 l 7.046 -7.046 v 0.24 Z" /><path d="M 12.268 8.54 h 7.464 v 1.065 h -7.464 V 8.54 Z M 12.268 14.937 h 7.464 v 1.066 h -7.464 v -1.066 Z M 12.268 11.738 h 5.33 v 1.066 h -5.33 v -1.066 Z" /></svg></div></div></div></div></div></div><div class="ladi-section" id="SECTION15"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="HEADLINE16"><h1 class="ladi-headline">V? công ty chúng tôi</h1></div><div class="ladi-element" id="SHAPE17"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="#9d8f62" viewBox="0 0 24 24" width="100%" height="100%"> <path d="M 2 2 H 11 V 11 H 2 V 2 M 9 4 H 4 V 9 H 9 V 4 M 22 13 V 22 H 13 V 13 H 22 M 15 20 H 20 V 15 H 15 V 20 M 16 8 V 11 H 13 V 8 H 16 M 11 16 H 8 V 13 H 11 V 16 Z" /> </svg></div></div><div class="ladi-element" id="LINE18"><div class="ladi-line"><div class="ladi-line-container"></div></div></div><div class="ladi-element" id="PARAGRAPH19"><p class="ladi-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quia dolori non voluptas contraria est, sed doloris privatio. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Duo enim genera quae erant, fecit tria. Primum Theophrasti, Strato, physicum se voluit;<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quia dolori non voluptas contraria est, sed doloris privatio. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Duo enim genera quae erant, fecit tria. Primum Theophrasti, Strato, physicum se voluit;</p></div></div></div><div class="ladi-section" id="SECTION20"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="LINE30"><div class="ladi-line"><div class="ladi-line-container"></div></div></div><div class="ladi-element" id="SHAPE31"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="#9d8f62" viewBox="0 0 24 24" width="100%" height="100%"> <path d="M 11 23 A 2 2 0 0 1 9 21 V 19 H 15 V 21 A 2 2 0 0 1 13 23 H 11 M 12 1 C 12.71 1 13.39 1.09 14.05 1.26 C 15.22 2.83 16 5.71 16 9 C 16 11.28 15.62 13.37 15 16 A 2 2 0 0 1 13 18 H 11 A 2 2 0 0 1 9 16 C 8.38 13.37 8 11.28 8 9 C 8 5.71 8.78 2.83 9.95 1.26 C 10.61 1.09 11.29 1 12 1 M 20 8 C 20 11.18 18.15 15.92 15.46 17.21 C 16.41 15.39 17 11.83 17 9 C 17 6.17 16.41 3.61 15.46 1.79 C 18.15 3.08 20 4.82 20 8 M 4 8 C 4 4.82 5.85 3.08 8.54 1.79 C 7.59 3.61 7 6.17 7 9 C 7 11.83 7.59 15.39 8.54 17.21 C 5.85 15.92 4 11.18 4 8 Z" /> </svg></div></div><div class="ladi-element" id="HEADLINE32"><h1 class="ladi-headline">Rental Services</h1></div><div class="ladi-element" id="GROUP34"><div class="ladi-group"><div class="ladi-element" id="IMAGE21"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE33"><h3 class="ladi-headline">Ð?a di?m 1</h3></div></div></div><div class="ladi-element" id="GROUP35"><div class="ladi-group"><div class="ladi-element" id="IMAGE36"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE37"><h3 class="ladi-headline">Ð?a di?m 2</h3></div></div></div><div class="ladi-element" id="GROUP38"><div class="ladi-group"><div class="ladi-element" id="IMAGE39"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE40"><h3 class="ladi-headline">Ð?a di?m 3</h3></div></div></div></div></div><div class="ladi-section" id="SECTION41"><div class="ladi-section-background"></div><div class="ladi-overlay"></div><div class="ladi-container"><div class="ladi-element" id="PARAGRAPH43"><p class="ladi-paragraph">B?n có gì d?c bi?t? B?n cung c?p di?u gì cho khách hàng? Có gì hon d?i th?? Giá tr? c?t lõi mà s?n ph?m d?ch v? mang l?i</p></div><div class="ladi-element" id="HEADLINE44"><h2 class="ladi-headline">D?CH V? CHÚNG TÔI CUNG C?P</h2></div><div class="ladi-element" id="GROUP45"><div class="ladi-group"><div class="ladi-element" id="SHAPE46"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" width="100%" height="100%" [removed]=""> <path d="M 4 4 v 20 h 7 v -2 H 6 V 6 h 12 v 1 h 2 V 4 H 4 Z m 8 4 v 20 h 16 V 8 H 12 Z m 2 2 h 12 v 16 H 14 V 10 Z" /> </svg></div></div><div class="ladi-element" id="HEADLINE47"><h6 class="ladi-headline">D?ch v? 01</h6></div><div class="ladi-element" id="PARAGRAPH48"><p class="ladi-paragraph">B?n có gì d?c bi?t? B?n cung c?p di?u gì cho khách hàng? Có gì hon d?i th?? Giá tr? c?t lõi mà s?n ph?m d?ch v? mang l?i</p></div></div></div><div class="ladi-element" id="GROUP49"><div class="ladi-group"><div class="ladi-element" id="SHAPE50"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" width="100%" height="100%"> <path d="M 6 6 C 4.355 6 3 7.355 3 9 v 6.78 c -0.61 0.552 -1 1.342 -1 2.22 v 9 h 5 v -2 h 18 v 2 h 5 v -9 c 0 -0.878 -0.39 -1.668 -1 -2.22 V 9 c 0 -1.645 -1.355 -3 -3 -3 H 6 Z m 0 2 h 20 c 0.555 0 1 0.445 1 1 v 6 h -2 v -1 c 0 -1.645 -1.355 -3 -3 -3 h -4 c -0.767 0 -1.467 0.3 -2 0.78 c -0.533 -0.48 -1.233 -0.78 -2 -0.78 h -4 c -1.645 0 -3 1.355 -3 3 v 1 H 5 V 9 c 0 -0.555 0.445 -1 1 -1 Z m 4 5 h 4 c 0.555 0 1 0.445 1 1 v 1 H 9 v -1 c 0 -0.555 0.445 -1 1 -1 Z m 8 0 h 4 c 0.555 0 1 0.445 1 1 v 1 h -6 v -1 c 0 -0.555 0.445 -1 1 -1 Z M 5 17 h 22 c 0.555 0 1 0.445 1 1 v 7 h -1 v -2 H 5 v 2 H 4 v -7 c 0 -0.555 0.445 -1 1 -1 Z" /> </svg></div></div><div class="ladi-element" id="HEADLINE51"><h6 class="ladi-headline">D?ch v? 02</h6></div><div class="ladi-element" id="PARAGRAPH52"><p class="ladi-paragraph">B?n có gì d?c bi?t? B?n cung c?p di?u gì cho khách hàng? Có gì hon d?i th?? Giá tr? c?t lõi mà s?n ph?m d?ch v? mang l?i</p></div></div></div><div class="ladi-element" id="GROUP53"><div class="ladi-group"><div class="ladi-element" id="SHAPE54"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" width="100%" height="100%"> <path d="M 12 5 c -1.645 0 -3 1.355 -3 3 c 0 0.353 0.073 0.684 0.188 1 H 4 v 6 h 1 v 13 h 22 V 15 h 1 V 9 h -5.188 c 0.115 -0.316 0.188 -0.647 0.188 -1 c 0 -1.645 -1.355 -3 -3 -3 c -1.75 0 -2.94 1.33 -3.72 2.438 c -0.103 0.148 -0.188 0.292 -0.28 0.437 c -0.092 -0.145 -0.177 -0.29 -0.28 -0.438 C 14.94 6.33 13.75 5 12 5 Z m 0 2 c 0.626 0 1.436 0.67 2.063 1.563 c 0.152 0.217 0.13 0.23 0.25 0.437 H 12 c -0.565 0 -1 -0.435 -1 -1 s 0.435 -1 1 -1 Z m 8 0 c 0.565 0 1 0.435 1 1 s -0.435 1 -1 1 h -2.313 c 0.12 -0.206 0.098 -0.22 0.25 -0.438 C 18.564 7.672 19.375 7 20 7 Z M 6 11 h 20 v 2 h -9 v -1 h -2 v 1 H 6 v -2 Z m 1 4 h 18 v 11 h -8 V 16 h -2 v 10 H 7 V 15 Z" /> </svg></div></div><div class="ladi-element" id="HEADLINE55"><h6 class="ladi-headline">D?ch v? 04</h6></div><div class="ladi-element" id="PARAGRAPH56"><p class="ladi-paragraph">B?n có gì d?c bi?t? B?n cung c?p di?u gì cho khách hàng? Có gì hon d?i th?? Giá tr? c?t lõi mà s?n ph?m d?ch v? mang l?i</p></div></div></div><div class="ladi-element" id="GROUP57"><div class="ladi-group"><div class="ladi-element" id="SHAPE58"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" width="100%" height="100%"> <path d="M 11.5 6 l -0.313 0.406 L 10 8 H 3 v 18 h 26 V 8 h -7 l -1.188 -1.594 L 20.5 6 h -9 Z m 1 2 h 7 l 1.188 1.594 L 21 10 h 6 v 14 H 5 V 10 h 6 l 0.313 -0.406 L 12.5 8 Z M 8 11 c -0.552 0 -1 0.448 -1 1 s 0.448 1 1 1 s 1 -0.448 1 -1 s -0.448 -1 -1 -1 Z m 8 0 c -3.302 0 -6 2.698 -6 6 s 2.698 6 6 6 s 6 -2.698 6 -6 s -2.698 -6 -6 -6 Z m 0 2 c 2.22 0 4 1.78 4 4 c 0 2.22 -1.78 4 -4 4 c -2.22 0 -4 -1.78 -4 -4 c 0 -2.22 1.78 -4 4 -4 Z" /> </svg></div></div><div class="ladi-element" id="HEADLINE59"><h6 class="ladi-headline">D?ch v? 03</h6></div><div class="ladi-element" id="PARAGRAPH60"><p class="ladi-paragraph">B?n có gì d?c bi?t? B?n cung c?p di?u gì cho khách hàng? Có gì hon d?i th?? Giá tr? c?t lõi mà s?n ph?m d?ch v? mang l?i</p></div></div></div><div class="ladi-element" id="IMAGE61"><div class="ladi-image"><div class="ladi-image-background"></div></div></div></div></div><div class="ladi-section" id="SECTION62"><div class="ladi-section-background"></div><div class="ladi-overlay"></div><div class="ladi-container"><div class="ladi-element" id="GROUP187"><div class="ladi-group"><div class="ladi-element" id="BOX63"><div class="ladi-box"></div></div><div class="ladi-element" id="HEADLINE64"><h1 class="ladi-headline">OFF 50%</h1></div></div></div><div class="ladi-element" id="GROUP188"><div class="ladi-group"><div class="ladi-element" id="BOX65"><div class="ladi-box"></div></div><div class="ladi-element" id="HEADLINE66"><h1 class="ladi-headline">THIS HEADLINE WILL HELP YOU PROMOTE YOUR OFFER!</h1></div></div></div><div class="ladi-element" id="PARAGRAPH67"><p class="ladi-paragraph">Select a plan today and you'll get 50% off any order, any plan and you can count on us to help in under 24 hours!</p></div><div class="ladi-element" id="BUTTON68"><div class="ladi-button"><div class="ladi-button-background"></div><div class="ladi-element" id="BUTTON_TEXT68"><p class="ladi-headline"> LIÊN H? V?I CHÚNG TÔI</p></div></div></div></div></div><div class="ladi-section" id="SECTION70"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="GROUP73"><div class="ladi-group"><div class="ladi-element" id="HEADLINE74"><h4 class="ladi-headline">N?i dung chi ti?t 01</h4></div><div class="ladi-element" id="PARAGRAPH75"><p class="ladi-paragraph">Mô t? thông tin có giá tr?, nh?ng di?m n?i b?t, l?i gi?i thi?u h?p d?n v? s?n ph?m d?ch v?, giúp ngu?i xem d? dàng tìm th?y n?i dung.</p></div><div class="ladi-element" id="IMAGE76"><div class="ladi-image"><div class="ladi-image-background"></div></div></div></div></div><div class="ladi-element" id="HEADLINE97"><h1 class="ladi-headline">Rental Services</h1></div><div class="ladi-element" id="SHAPE98"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" fill="#9d8f62" viewBox="0 0 24 24" width="100%" height="100%"> <path d="M 21 16 V 14 L 13 9 V 3.5 A 1.5 1.5 0 0 0 11.5 2 A 1.5 1.5 0 0 0 10 3.5 V 9 L 2 14 V 16 L 10 13.5 V 19 L 8 20.5 V 22 L 11.5 21 L 15 22 V 20.5 L 13 19 V 13.5 L 21 16 Z" /> </svg></div></div><div class="ladi-element" id="LINE99"><div class="ladi-line"><div class="ladi-line-container"></div></div></div><div class="ladi-element" id="GROUP100"><div class="ladi-group"><div class="ladi-element" id="HEADLINE101"><h4 class="ladi-headline">N?i dung chi ti?t 02</h4></div><div class="ladi-element" id="PARAGRAPH102"><p class="ladi-paragraph">Mô t? thông tin có giá tr?, nh?ng di?m n?i b?t, l?i gi?i thi?u h?p d?n v? s?n ph?m d?ch v?, giúp ngu?i xem d? dàng tìm th?y n?i dung.</p></div><div class="ladi-element" id="IMAGE103"><div class="ladi-image"><div class="ladi-image-background"></div></div></div></div></div><div class="ladi-element" id="GROUP104"><div class="ladi-group"><div class="ladi-element" id="HEADLINE105"><h4 class="ladi-headline">N?i dung chi ti?t 03</h4></div><div class="ladi-element" id="PARAGRAPH106"><p class="ladi-paragraph">Mô t? thông tin có giá tr?, nh?ng di?m n?i b?t, l?i gi?i thi?u h?p d?n v? s?n ph?m d?ch v?, giúp ngu?i xem d? dàng tìm th?y n?i dung.</p></div><div class="ladi-element" id="IMAGE107"><div class="ladi-image"><div class="ladi-image-background"></div></div></div></div></div></div></div><div class="ladi-section" id="SECTION108"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="GROUP109"><div class="ladi-group"><div class="ladi-element" id="SHAPE110"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; pointer-events: none;" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" fit="" version="1.0"><path d="M 29.86 22.698 V 3.506 H 2.14 v 19.192 h 13.328 v 2.062 l -5.056 2.8 l 0.516 0.933 L 16 25.683 l 5.072 2.81 l 0.516 -0.933 l -5.056 -2.8 v -2.062 H 29.86 Z M 3.206 4.572 h 25.59 v 17.06 H 3.205 V 4.572 Z" /><path d="M 15.294 15.427 l -3.162 -4.41 l -2.116 4.103 L 6.69 8.407 l -2.43 8.965 l 1.03 0.28 l 1.693 -6.25 l 3.014 6.08 l 2.284 -4.427 l 3.415 4.76 l 2.948 -9.89 l -1.02 -0.306 Z M 23.464 9.903 c -1.764 0 -3.2 1.435 -3.2 3.2 s 1.436 3.198 3.2 3.198 c 1.763 0 3.198 -1.434 3.198 -3.198 s -1.435 -3.2 -3.198 -3.2 Z m 0 5.332 c -1.176 0 -2.133 -0.956 -2.133 -2.133 s 0.958 -2.133 2.134 -2.133 s 2.132 0.955 2.132 2.132 s -0.956 2.133 -2.132 2.133 Z" /></svg></div></div><div class="ladi-element" id="HEADLINE111"><h1 class="ladi-headline">345</h1></div><div class="ladi-element" id="HEADLINE112"><h6 class="ladi-headline">Ð?i tác Qu?c t?</h6></div></div></div><div class="ladi-element" id="GROUP113"><div class="ladi-group"><div class="ladi-element" id="SHAPE114"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; pointer-events: none;" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" fit="" version="1.0"><path d="M 28.795 4.005 H 3.205 v 6.93 h 1.067 v 17.06 H 27.73 v -17.06 h 1.065 v -6.93 Z M 26.663 26.93 H 5.34 V 10.934 h 21.323 V 26.93 Z M 27.73 9.87 H 4.27 v -4.8 H 27.73 v 4.8 Z" /><path d="M 12.144 17.87 h 7.74 c 1.1 0 1.995 -0.867 1.995 -1.938 v -0.386 c 0 -1.07 -0.895 -1.94 -1.997 -1.94 h -7.74 c -1.1 0 -1.994 0.87 -1.994 1.94 v 0.386 c 0 1.07 0.89 1.94 1.994 1.94 Z m -0.93 -2.325 c 0 -0.482 0.417 -0.873 0.93 -0.873 h 7.738 c 0.512 0 0.93 0.392 0.93 0.873 v 0.386 c 0 0.483 -0.418 0.874 -0.93 0.874 h -7.74 c -0.51 0 -0.927 -0.392 -0.927 -0.873 v -0.385 Z" /></svg></div></div><div class="ladi-element" id="HEADLINE115"><h1 class="ladi-headline">25</h1></div><div class="ladi-element" id="HEADLINE116"><h6 class="ladi-headline">D? án hoàn thành</h6></div></div></div><div class="ladi-element" id="GROUP117"><div class="ladi-group"><div class="ladi-element" id="SHAPE118"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; pointer-events: none;" fill="rgba(157, 143, 98, 1)" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" fit="" version="1.0"><path d="M 28.795 6.404 H 3.205 c -0.883 0 -1.6 0.716 -1.6 1.6 v 15.993 c 0 0.884 0.717 1.6 1.6 1.6 h 25.59 c 0.883 0 1.6 -0.716 1.6 -1.6 V 8.003 c 0 -0.883 -0.717 -1.6 -1.6 -1.6 Z M 2.672 10.67 h 26.656 V 12.8 H 2.672 V 10.67 Z m 26.656 13.327 c 0 0.294 -0.24 0.533 -0.533 0.533 H 3.205 c -0.294 0 -0.533 -0.24 -0.533 -0.533 v -10.13 h 26.656 v 10.13 Z M 2.672 9.602 v -1.6 c 0 -0.293 0.24 -0.532 0.533 -0.532 h 25.59 c 0.294 0 0.533 0.24 0.533 0.533 v 1.6 H 2.672 Z" /><path d="M 4.804 21.33 h 10.662 v 1.067 H 4.804 V 21.33 Z M 4.804 18.133 h 6.398 V 19.2 H 4.805 v -1.067 Z M 23.98 22.398 h 2.166 c 0.58 0 1.05 -0.462 1.05 -1.034 V 21.3 c 0 -0.57 -0.47 -1.035 -1.05 -1.035 H 23.98 c -0.58 0 -1.05 0.463 -1.05 1.035 v 0.064 c 0 0.572 0.47 1.034 1.05 1.034 Z" /></svg></div></div><div class="ladi-element" id="HEADLINE119"><h1 class="ladi-headline">451</h1></div><div class="ladi-element" id="HEADLINE120"><h6 class="ladi-headline">D? án hoàn thành</h6></div></div></div><div class="ladi-element" id="GROUP121"><div class="ladi-group"><div class="ladi-element" id="SHAPE122"><div class="ladi-shape"><svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; pointer-events: none;" fill="rgba(157, 143, 98, 1)" viewBox="0 0 27 32" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" fit="" version="1.0"><path d="M 18.723 21.788 c -1.15 -0.48 -3.884 -1.423 -5.565 -1.92 c -0.143 -0.044 -0.166 -0.05 -0.166 -0.648 c 0 -0.493 0.203 -0.99 0.4 -1.41 c 0.215 -0.455 0.47 -1.223 0.56 -1.91 c 0.255 -0.297 0.602 -0.88 0.826 -1.994 c 0.196 -0.98 0.104 -1.338 -0.026 -1.673 c -0.013 -0.035 -0.028 -0.07 -0.038 -0.105 c -0.05 -0.23 0.018 -1.425 0.186 -2.352 c 0.116 -0.636 -0.03 -1.99 -0.906 -3.108 c -0.553 -0.707 -1.61 -1.576 -3.544 -1.696 H 9.39 c -1.9 0.12 -2.96 0.99 -3.513 1.696 C 5 7.788 4.857 9.14 4.97 9.776 c 0.17 0.928 0.237 2.123 0.188 2.348 c -0.01 0.04 -0.025 0.074 -0.04 0.11 c -0.128 0.335 -0.22 0.692 -0.024 1.673 c 0.222 1.113 0.57 1.697 0.826 1.993 c 0.09 0.688 0.344 1.456 0.56 1.912 c 0.156 0.334 0.23 0.788 0.23 1.43 c 0 0.598 -0.024 0.605 -0.158 0.647 c -1.738 0.512 -4.505 1.512 -5.537 1.964 c -0.818 0.35 -1.017 0.98 -1.017 1.548 v 2.623 c 0 0.37 0.22 1.006 1.017 1.006 h 17.899 c 0.796 0 1.017 -0.633 1.017 -1.005 v -2.623 s -0.392 -1.262 -1.21 -1.613 Z m 0.153 4.192 H 1.05 V 23.4 c 0 -0.317 0.09 -0.46 0.387 -0.586 c 0.994 -0.435 3.74 -1.426 5.434 -1.926 c 0.89 -0.282 0.89 -1.07 0.89 -1.646 c 0 -0.8 -0.106 -1.397 -0.33 -1.878 c -0.173 -0.366 -0.393 -1.022 -0.47 -1.6 l -0.04 -0.313 l -0.206 -0.237 c -0.113 -0.13 -0.396 -0.538 -0.59 -1.513 c -0.153 -0.76 -0.085 -0.935 -0.03 -1.076 c 0.03 -0.076 0.057 -0.152 0.08 -0.237 l 0.005 -0.022 l 0.004 -0.022 c 0.105 -0.495 -0.037 -1.962 -0.18 -2.755 c -0.068 -0.365 0.016 -1.4 0.7 -2.273 c 0.417 -0.534 1.228 -1.19 2.72 -1.293 h 0.993 c 1.22 0.082 2.145 0.517 2.752 1.293 c 0.68 0.872 0.765 1.91 0.7 2.275 c -0.15 0.814 -0.288 2.257 -0.18 2.758 l 0.007 0.04 l 0.01 0.037 c 0.017 0.054 0.037 0.108 0.057 0.16 l 0.01 0.027 v 0.002 c 0.06 0.153 0.127 0.326 -0.024 1.087 c -0.196 0.975 -0.48 1.385 -0.592 1.516 l -0.204 0.237 l -0.042 0.31 c -0.076 0.578 -0.296 1.237 -0.468 1.603 c -0.247 0.525 -0.5 1.157 -0.5 1.856 c 0 0.577 0 1.367 0.918 1.655 c 1.64 0.485 4.345 1.416 5.448 1.877 c 0.418 0.18 0.574 0.493 0.574 0.65 l -0.006 2.578 Z M 23.078 14.44 v -4.184 h -1.05 v 4.185 h -4.185 v 1.05 h 4.186 v 4.185 h 1.048 V 15.49 h 4.185 v -1.05 Z" /></svg></div></div><div class="ladi-element" id="HEADLINE123"><h1 class="ladi-headline">3750</h1></div><div class="ladi-element" id="HEADLINE124"><h6 class="ladi-headline">Khách hàng trung thành</h6></div></div></div></div></div><div class="ladi-section" id="SECTION125"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="GROUP189"><div class="ladi-group"><div class="ladi-element" id="BOX128"><div class="ladi-box"></div></div><div class="ladi-element" id="IMAGE129"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE130"><h6 class="ladi-headline">THANH TÙNG</h6></div><div class="ladi-element" id="HEADLINE131"><p class="ladi-headline">CEO - Founder</p></div></div></div><div class="ladi-element" id="GROUP190"><div class="ladi-group"><div class="ladi-element" id="BOX132"><div class="ladi-box"></div></div><div class="ladi-element" id="IMAGE133"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE134"><h6 class="ladi-headline">JONATHAN WALKER</h6></div><div class="ladi-element" id="HEADLINE135"><p class="ladi-headline">Manager Marketing</p></div></div></div><div class="ladi-element" id="GROUP191"><div class="ladi-group"><div class="ladi-element" id="BOX136"><div class="ladi-box"></div></div><div class="ladi-element" id="IMAGE137"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE138"><h6 class="ladi-headline">NGUYEN JOHNY</h6></div><div class="ladi-element" id="HEADLINE139"><p class="ladi-headline">Designer</p></div></div></div><div class="ladi-element" id="GROUP192"><div class="ladi-group"><div class="ladi-element" id="BOX140"><div class="ladi-box"></div></div><div class="ladi-element" id="IMAGE141"><div class="ladi-image"><div class="ladi-image-background"></div></div></div><div class="ladi-element" id="HEADLINE142"><h6 class="ladi-headline">NGUYEN JOHNY</h6></div><div class="ladi-element" id="HEADLINE143"><p class="ladi-headline">Designer</p></div></div></div><div class="ladi-element" id="LINE144"><div class="ladi-line"><div class="ladi-line-container"></div></div></div><div class="ladi-element" id="HEADLINE145"><h1 class="ladi-headline">Our team</h1></div></div></div><div class="ladi-section" id="SECTION146"><div class="ladi-section-background"></div><div class="ladi-container"><div class="ladi-element" id="LINE147"><div class="ladi-line"><div class="ladi-line-container"></div></div></div><div class="ladi-element" id="HEADLINE148"><p class="ladi-headline">C?p nh?t nh?ng thông tin m?i nh?t c?a chúng tôi</p></div><div class="ladi-element" id="FORM150" data-config-id=""><form class="ladi-form" method="post" autocomplete="off"><div class="ladi-element" id="FORM_ITEM151"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="name" tabindex="2" class="ladi-form-control" required="" type="text" placeholder="H? và tên" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="FORM_ITEM152"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="email" tabindex="2" class="ladi-form-control" required="" type="email" placeholder="Nh?p Email" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="FORM_ITEM153"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><input name="phone" tabindex="2" class="ladi-form-control" required="" type="tel" placeholder="Nh?p S? di?n tho?i" pattern="[0-9]{9,12}" value="" autocomplete="off"></div></div></div><div class="ladi-element" id="FORM_ITEM154"><div class="ladi-form-item-container"><div class="ladi-form-item-background"></div><div class="ladi-form-item"><textarea name="message" tabindex="2" class="ladi-form-control" required="" placeholder="Ð? l?i l?i nh?n cho chúng tôi" autocomplete="off">Ð? l?i l?i nh?n cho chúng tôi</textarea></div></div></div><div class="ladi-element" id="BUTTON149"><div class="ladi-button"><div class="ladi-button-background"></div><div class="ladi-element" id="BUTTON_TEXT149"><p class="ladi-headline">Submit</p></div></div></div><button class="ladi-hidden" type="submit"></button></form></div><div class="ladi-element" id="GROUP155"><div class="ladi-group"><div class="ladi-element" id="HEADLINE156"><p class="ladi-headline">T?ng 6A, S? 9A, ngõ 9 Hoàng C?u, Hà N?i<br style="color: rgb(157, 143, 98);">Email: hotro@ladipage.vn<br style="color: rgb(157, 143, 98);">Hotline: 0972 220 777</p></div><div class="ladi-element" id="HEADLINE157"><h5 class="ladi-headline">Ð?A CH?:</h5></div></div></div><div class="ladi-element" id="GROUP158"><div class="ladi-group"><div class="ladi-element" id="HEADLINE159"><h3 class="ladi-headline">V?I CHÚNG TÔI</h3></div><div class="ladi-element" id="HEADLINE160"><h5 class="ladi-headline">LIÊN H?<br style="color: rgb(157, 143, 98);"></h5></div></div></div></div></div><div class="ladi-section" id="SECTION_POPUP"><div class="ladi-section-background"></div><div class="ladi-container"></div></div></div><div class="backdrop-popup" id="backdrop-popup"></div><div class="backdrop-dropbox" id="backdrop-dropbox"></div><div class="lightbox-screen" id="lightbox-screen"></div><script id="script_lazyload" type="text/javascript">(function () {var style_lazyload = document.getElementById('style_lazyload');var docEventScroll = window;var list_element_lazyload = document.querySelectorAll('.ladi-section-background, .ladi-image-background, .ladi-button-background, .ladi-headline, .ladi-video-background, .ladi-countdown-background, .ladi-box, .ladi-frame-background, .ladi-tabs-background, .ladi-survey-option-background, .ladi-survey-option-image, .ladi-banner, .ladi-form-item-background, .ladi-gallery-view-item, .ladi-gallery-control-item, .ladi-spin-lucky-screen, .ladi-spin-lucky-start, .ladi-form-label-container .ladi-form-label-item.image, .ladi-list-paragraph ul li');for (var i = 0; i < list_element_lazyload.length; i++) {var rect = list_element_lazyload[i].getBoundingClientRect();if (rect.x == "undefined" || rect.x == undefined || rect.y == "undefined" || rect.y == undefined) {rect.x = rect.left;rect.y = rect.top;}var offset_top = rect.y + window.scrollY;if (offset_top >= window.scrollY + window.innerHeight || window.scrollY >= offset_top + list_element_lazyload[i].offsetHeight) {list_element_lazyload[i].classList.add('ladi-lazyload');}}if (typeof style_lazyload != "undefined" && style_lazyload != undefined) {style_lazyload.parentElement.removeChild(style_lazyload);}var currentScrollY = window.scrollY;var stopLazyload = function (event) {if (event.type == "scroll" && window.scrollY == currentScrollY) {currentScrollY = -1;return;}docEventScroll.removeEventListener('scroll', stopLazyload);list_element_lazyload = document.getElementsByClassName('ladi-lazyload');while(list_element_lazyload.length > 0) {list_element_lazyload[0].classList.remove('ladi-lazyload');}};var scrollEventPassive = null;try {var opts = Object.defineProperty({}, 'passive', {get: function() {scrollEventPassive = {passive: true};}});window.addEventListener('testPassive', null, opts);window.removeEventListener('testPassive', null, opts);} catch (e) {}docEventScroll.addEventListener('scroll', stopLazyload, scrollEventPassive);})();</script><!--[if lt IE 9]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1651230646307"></script><script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1651230646307"></script><![endif]--><link href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Itim:bold,regular|Roboto Slab:bold,regular|Lobster:bold,regular&amp;display=swap" rel="stylesheet" type="text/css"><link href="https://w.ladicdn.com/v2/source/ladipage.min.css?v=1651230646307" rel="stylesheet" type="text/css"><script src="https://w.ladicdn.com/v2/source/ladipage.vi.min.js?v=1651230646307" type="text/javascript"></script><script id="script_event_data" type="application/json">{"COUNTDOWN_ITEM23":{"type":"countdown_item","option.countdown_item_type":"day"},"COUNTDOWN_ITEM24":{"type":"countdown_item","option.countdown_item_type":"hour"},"COUNTDOWN_ITEM25":{"type":"countdown_item","option.countdown_item_type":"minute"},"COUNTDOWN_ITEM26":{"type":"countdown_item","option.countdown_item_type":"seconds"},"COUNTDOWN174":{"type":"countdown","option.countdown_type":"countdown","option.countdown_minute":"5555"},"FORM176":{"type":"form","option.form_send_ladipage":true,"option.thankyou_type":"default","option.thankyou_value":"Cám on b?n dã quan tâm","option.form_captcha":true,"option.form_auto_complete":true},"FORM_ITEM177":{"type":"form_item","option.input_type":"text","option.input_tabindex":1},"FORM_ITEM178":{"type":"form_item","option.input_type":"email","option.input_tabindex":1},"FORM_ITEM179":{"type":"form_item","option.input_type":"tel","option.input_tabindex":1},"FORM150":{"type":"form","option.form_send_ladipage":true,"option.thankyou_type":"default","option.thankyou_value":"Cám on b?n dã quan tâm","option.form_captcha":true,"option.form_auto_complete":true},"FORM_ITEM151":{"type":"form_item","option.input_type":"text","option.input_tabindex":1},"FORM_ITEM152":{"type":"form_item","option.input_type":"email","option.input_tabindex":1},"FORM_ITEM153":{"type":"form_item","option.input_type":"tel","option.input_tabindex":1},"FORM_ITEM154":{"type":"form_item","option.input_type":"textarea","option.input_tabindex":1}}</script><script id="script_ladipage_run" type="text/javascript">(function () {var run = function () {if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined || typeof window.ladi == "undefined" || window.ladi == undefined) {setTimeout(run, 100); return;}window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2();window.LadiPageScript.runtime.ladipage_id = '626d07532f985a001373c445';window.LadiPageScript.runtime.publish_platform = 'LADIPAGE';window.LadiPageScript.runtime.is_mobile_only = false;window.LadiPageScript.runtime.version = '1651230646307';window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v2/source/';window.LadiPageScript.runtime.DOMAIN_FREE = ["ldp.page"];window.LadiPageScript.runtime.bodyFontSize = 12;window.LadiPageScript.runtime.store_id = "626d04552f985a001373b819";window.LadiPageScript.runtime.time_zone = 7;window.LadiPageScript.runtime.currency = "VND";window.LadiPageScript.runtime.convert_replace_str = true;window.LadiPageScript.runtime.desktop_width = 960;window.LadiPageScript.runtime.mobile_width = 420;window.LadiPageScript.run(true);window.LadiPageScript.runEventScroll();};run();})();</script></body>
+</html>
